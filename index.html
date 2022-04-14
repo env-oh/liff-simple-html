@@ -22,8 +22,13 @@
     const userId = document.getElementById('userId');
     userId.innerHTML = 'from script';
   </script> -->
-
   <script
+    charset="utf-8"
+    src="https://static.line-scdn.net/liff/edge/2/sdk.js"
+  ></script>
+
+  <script src="index.js"></script>
+  <!-- <script
     charset="utf-8"
     src="https://static.line-scdn.net/liff/edge/2/sdk.js"
   ></script>
@@ -37,10 +42,8 @@
     const statusMessage = document.getElementById('statusMessage');
     //const email = document.getElementById('email');
 
-    //userId.innerHTML = 'from script';
-
     async function main() {
-      // use function after init easier
+      // use function after init is easier
       // liff.ready.then(
       //   () => {
       //     if (liff.isInClient()) {
@@ -87,5 +90,5 @@
       statusMessage.innerHTML =
         '<b>statusMessage: </b>' + profile.statusMessage;
     }
-  </script>
+  </script> -->
 </html>
