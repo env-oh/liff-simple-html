@@ -1,4 +1,4 @@
-const body = document.getElementById('body');
+//const body = document.getElementById('body');
 const pictureUrl = document.getElementById('pictureUrl');
 const os = document.getElementById('os');
 const userId = document.getElementById('userId');
