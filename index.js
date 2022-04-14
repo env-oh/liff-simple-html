@@ -1,5 +1,3 @@
-
-
 const body = document.getElementById('body');
 const pictureUrl = document.getElementById('pictureUrl');
 const os = document.getElementById('os');
@@ -23,7 +21,7 @@ async function main() {
   await liff.init(
     { liffId: '1657051316-r2qQzYRj' },
     () => {
-      os.innerHTML = '<b>OS: </b>' + liff.getOS();
+      os.innerHTML = '<b>Device : </b>' + liff.getOS();
       mainLiff();
       // if (liff.isLoggedIn()) {
       //   mainLiff();
