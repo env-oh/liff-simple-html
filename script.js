@@ -17,7 +17,7 @@ const displayName = document.getElementById('displayName');
 const statusMessage = document.getElementById('statusMessage');
 //const email = document.getElementById('email');
 
-userId.innerHTML = 'from script';
+//userId.innerHTML = 'from script';
 
 async function main() {
   // use function after init easier
